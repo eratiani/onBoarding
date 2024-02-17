@@ -1,0 +1,53 @@
+.bg-img {
+  background-image: url(../../../assets/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1024px;
+  max-width: 666px;
+  position: relative;
+  padding-bottom: 420px;
+  padding-top: 64px;
+  .container-logo {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 236px !important;
+    .logo--text {
+      color: #fff;
+      font-family: Gilroy;
+      font-size: 16px;
+      padding-top: 10px !important;
+    }
+  }
+  .backtick {
+    position: relative;
+    z-index: 2;
+    font-family: Gayathri;
+    color: #00daf7;
+    font-size: 96px;
+  }
+  .container--text {
+    position: relative;
+    z-index: 2;
+    font-family: Inter;
+    color: #fff;
+    font-size: 20px;
+    line-height: 38px;
+    margin-bottom: 22px !important;
+  }
+  .container--watermark {
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    color: #fff;
+    line-height: 21px;
+  }
+  .overlay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(21, 101, 216, 0.9);
+    z-index: 1;
+  }
+}
